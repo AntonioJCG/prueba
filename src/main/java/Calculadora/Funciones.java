@@ -55,10 +55,14 @@ class Funciones {
     }
 
     public void multiplica(float n1, float n2) {
-        System.out.println("La multiplicaci�n de " + n1 + " y " + n2 + " es " + (n1 * n2));
+        System.out.println("La multiplicacion de " + n1 + " y " + n2 + " es " + (n1 * n2));
     }
 
     public void divide(float n1, float n2) {
-        System.out.println("La divisi�n de " + n1 + " y " + n2 + " es " + (n1 / n2));
+        System.out.println("La division de " + n1 + " y " + n2 + " es " + (n1 / n2));
+    }
+    
+    public void modulo(float n1, float n2) {
+        System.out.println("El modulo de " + n1 + " y " + n2 + " es " + (n1 % n2));
     }
 }

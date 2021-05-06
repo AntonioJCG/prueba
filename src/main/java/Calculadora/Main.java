@@ -8,6 +8,7 @@ public class Main {
         Funciones calculadora3 = new Funciones("LG", "ALA57"); //Este llama al sobrecargado
         
         calculadora1.suma(2, 3);
+        calculadora1.modulo(3, 2);
         System.out.println("La marca de calculadora1 es "+ calculadora1.getMarca());
         calculadora1.setMarca("Fryas");
         System.out.println("La nueva marca de calculadora1 es "+ calculadora1.getMarca());
