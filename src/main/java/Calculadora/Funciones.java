@@ -14,12 +14,6 @@ class Funciones {
         this.nserie = nserie;
     }
     
-    //Constructor sobrecargado
-     public Funciones(String marca, String modelo) {
-        this.marca = marca;
-        this.modelo = modelo;
-    }
-    
     //Metodos get y set (para acceder a atributos privados)
     public String getMarca(){
         return this.marca;
