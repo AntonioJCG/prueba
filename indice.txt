@@ -1,2 +1,6 @@
 1. Color rojo
 2. Color azul
+3. Color amarillo
+4. Color verde
+5. Color blanco
+
